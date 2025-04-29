@@ -139,6 +139,12 @@ F. `true === Boolean(2)`
 ```js
 2 == '2'     // true (because '2' is converted to 2)  
 2 === '2'    // false (number !== string)
+```
 
+## 17. Callback Function Result
 
+The result of calling `modifyArray([1, 2, 3], doSomething)` will be:
 
+```js
+[2, 4, 6]
+```
