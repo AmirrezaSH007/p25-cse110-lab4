@@ -148,3 +148,13 @@ The result of calling `modifyArray([1, 2, 3], doSomething)` will be:
 ```js
 [2, 4, 6]
 ```
+
+## 19. Output of Asynchronous Code
+
+```js
+// Expected output when calling printNums():
+1
+4
+3
+2
+```
